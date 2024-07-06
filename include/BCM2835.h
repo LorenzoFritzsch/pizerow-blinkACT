@@ -1,11 +1,5 @@
 /*
- * BCM2835.h
- *
  * Broadcom BCM 2835 addresses as defined in the peripherals data sheet.
- *
- * Author: Lorenzo Fritzsch
- * Date: 06/07/2024
- * Copyright (C) 2024 Lorenzo Fritzsch
  */
 
 #define BCM2835_PERI_PHYSICAL 0x20000000
