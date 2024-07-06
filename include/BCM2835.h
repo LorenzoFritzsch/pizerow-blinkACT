@@ -2,6 +2,9 @@
  * Broadcom BCM 2835 addresses as defined in the peripherals data sheet.
  */
 
+#ifndef BCM2835
+#define BCM2835
+
 #define BCM2835_PERI_PHYSICAL 0x20000000
 #define BCM2835_PERI_BUS 0x7e000000
 
@@ -19,3 +22,5 @@
 
 #define BCM2835_GPCLR0 (BCM2835_GPIO_PHYSICAL_BASE + 0x28)
 #define BCM2835_GPCLR1 (BCM2835_GPIO_PHYSICAL_BASE + 0x2c)
+
+#endif // !BCM2835
